@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledQrCode = styled.div`
+export const StyledQrCode = styled.section`
   section {
     display: flexbox;
     flex-direction: row;
