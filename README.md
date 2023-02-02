@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I tried to use Styled Components with React in this simple project. I came to like Styled Components, it is nice aproach to styling pages, IMHO better than SASS/SCSS. I like using media query like nested part of CSS.
+I tried to use Styled Components with React in this simple project. I came to like Styled Components, it is nice aproach to styling pages, IMHO better than SASS/SCSS. I like using media query like nested part of CSS (but in this project is not necessary).
 
 
 
