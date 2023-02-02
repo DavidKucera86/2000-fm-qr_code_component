@@ -2,35 +2,36 @@ import styled from "styled-components";
 
 export const StyledQrCode = styled.section`
   section {
+    height: 100vh;
     display: flexbox;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 5%;
+    align-items: center;
 
     article {
-      border-radius: 5%;
       background-color: hsl(0, 0%, 100%);
-      width: 18.75rem;
-      padding: 1.25rem;
-      text-align: center;
+      padding: 1rem;
+      border-radius: 5%;
 
-      img {
+      div {
         width: 18.75rem;
-        border-radius: 5%;
-      }
+        text-align: center;
 
-      h2 {
-        font-weight: 700;
-      }
+        img {
+          width: 18.75rem;
+          border-radius: 5%;
+        }
 
-      p {
-        font-size: 15px;
-        color: hsl(220, 15%, 55%);
-      }
-    }
+        h1 {
+          font-weight: 700;
+          font-size: 1.5rem;
+        }
 
-    @media (max-width: 375px) {
-      margin: 5%;
+        p {
+          font-size: 15px; // requiered exactly 15 px
+          color: hsl(220, 15%, 55%);
+        }
+      }
     }
   }
 `;
